@@ -1,0 +1,68 @@
+header {
+    .bg-blue {
+        background-color: $primary-color;
+        padding: $spacing / 3;
+    }
+
+    .wrapper-text {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: white;
+        text-transform: uppercase;
+
+        p {
+            margin: 0 $spacing;
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: $spacing 0;
+
+        img {
+            width: 60px;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            list-style: none;
+            font-size: $font-size + 6px;
+
+            li {
+                margin: 0 $spacing/2;
+
+                &:hover {
+                    border-bottom: 1px solid $primary-color;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: initial;
+                }
+            }
+        }
+
+        form {
+            border-bottom: 2px solid $primary-color;
+
+            input {
+                outline: none;
+                border: transparent;
+                font-weight: 500;
+                width: $spacing * 5;
+
+                &::placeholder {
+                    padding-left: $spacing * 2.8;
+                }
+            }
+        }
+    }
+}

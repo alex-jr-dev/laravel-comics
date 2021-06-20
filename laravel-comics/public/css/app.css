@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: auto;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+header .bg-blue {
+  background-color: #0282f9;
+  padding: 6.6666666667px;
+}
+
+header .wrapper-text {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+header .wrapper-text p {
+  margin: 0 20px;
+}
+
+header .wrapper-text p a {
+  text-decoration: none;
+  color: white;
+}
+
+header .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+header .nav img {
+  width: 60px;
+}
+
+header .nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-size: 20px;
+}
+
+header .nav ul li {
+  margin: 0 10px;
+}
+
+header .nav ul li:hover {
+  border-bottom: 1px solid #0282f9;
+}
+
+header .nav ul li a {
+  text-decoration: none;
+  color: initial;
+}
+
+header .nav form {
+  border-bottom: 2px solid #0282f9;
+}
+
+header .nav form input {
+  outline: none;
+  border: transparent;
+  font-weight: 500;
+  width: 100px;
+}
+
+header .nav form input::-moz-placeholder {
+  padding-left: 56px;
+}
+
+header .nav form input:-ms-input-placeholder {
+  padding-left: 56px;
+}
+
+header .nav form input::placeholder {
+  padding-left: 56px;
+}
+
