@@ -34,18 +34,28 @@ header {
             display: flex;
             align-items: center;
             list-style: none;
-            font-size: $font-size + 6px;
+            font-size: $font-size + 4px;
 
             li {
                 margin: 0 $spacing/2;
+                text-transform: uppercase;
 
                 &:hover {
-                    border-bottom: 1px solid $primary-color;
+                    // border-bottom: 1px solid $primary-color;
+
+                    a {
+                        color: $primary-color;
+                    }
                 }
 
                 a {
                     text-decoration: none;
-                    color: initial;
+                    color: $secondary-color;
+                    padding: $spacing + 10px 0;
+
+                    &:hover {
+                        border-bottom: 2px solid $primary-color;
+                    }
                 }
             }
         }
@@ -60,7 +70,9 @@ header {
                 width: $spacing * 5;
 
                 &::placeholder {
-                    padding-left: $spacing * 2.8;
+                    padding-left: $spacing * 2.3;
+                    color: $secondary-color;
+                    font-size: $font-size + 2px;
                 }
             }
         }

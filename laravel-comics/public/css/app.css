@@ -52,20 +52,26 @@ header .nav ul {
   display: flex;
   align-items: center;
   list-style: none;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 header .nav ul li {
   margin: 0 10px;
+  text-transform: uppercase;
 }
 
-header .nav ul li:hover {
-  border-bottom: 1px solid #0282f9;
+header .nav ul li:hover a {
+  color: #0282f9;
 }
 
 header .nav ul li a {
   text-decoration: none;
-  color: initial;
+  color: #504e50;
+  padding: 30px 0;
+}
+
+header .nav ul li a:hover {
+  border-bottom: 2px solid #0282f9;
 }
 
 header .nav form {
@@ -80,14 +86,20 @@ header .nav form input {
 }
 
 header .nav form input::-moz-placeholder {
-  padding-left: 56px;
+  padding-left: 46px;
+  color: #504e50;
+  font-size: 16px;
 }
 
 header .nav form input:-ms-input-placeholder {
-  padding-left: 56px;
+  padding-left: 46px;
+  color: #504e50;
+  font-size: 16px;
 }
 
 header .nav form input::placeholder {
-  padding-left: 56px;
+  padding-left: 46px;
+  color: #504e50;
+  font-size: 16px;
 }
 
