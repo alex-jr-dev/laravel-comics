@@ -1,0 +1,111 @@
+.wrapper-footer {
+    background-image: url(/images/footer-bg.jpg);
+
+    .wrapper-links {
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        padding-top: $spacing;
+
+        div {
+            &:nth-child(4) {
+                img {
+                    width: 410px;
+                    margin-top: -40px;
+                    z-index: -1;
+                }
+            }
+        }
+
+        h3 {
+            margin-bottom: $spacing / 2;
+            text-transform: uppercase;
+        }
+
+        ul {
+            list-style: none;
+            font-size: $font-size - 2px;
+
+            li {
+                color: lightgray;
+                opacity: 0.9;
+                padding: $spacing/5 0;
+
+                &:hover {
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .rights {
+        margin-top: -70px;
+        padding-bottom: $spacing;
+        font-size: $font-size - 2px;
+
+        p {
+            color: lightgray;
+            opacity: 0.9;
+
+            a {
+                color: $primary-color;
+                text-decoration: none;
+            }
+        }
+
+        a {
+            color: $primary-color;
+            text-decoration: none;
+        }
+    }
+}
+
+.footer-signup {
+    background-color: rgb(48, 48, 48);
+    position: relative;
+    padding-top: $spacing * 1.5;
+    padding-bottom: $spacing * 1.5;
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        div {
+            &:first-of-type {
+                a {
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    padding: $spacing / 2;
+                    border: 1px solid $primary-color;
+                    font-size: $font-size + 2px;
+                    color: white;
+                }
+            }
+
+            &:last-of-type {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                p {
+                    text-transform: uppercase;
+                    font-size: $font-size + 2px;
+                    color: $primary-color;
+                    display: inline-block;
+                    margin-right: $spacing / 2;
+                }
+
+                img {
+                    margin-left: $spacing / 2;
+                    width: 30px;
+
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

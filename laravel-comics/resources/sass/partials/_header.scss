@@ -41,8 +41,6 @@ header {
                 text-transform: uppercase;
 
                 &:hover {
-                    // border-bottom: 1px solid $primary-color;
-
                     a {
                         color: $primary-color;
                     }
@@ -51,10 +49,10 @@ header {
                 a {
                     text-decoration: none;
                     color: $secondary-color;
-                    padding: $spacing + 10px 0;
+                    padding: $spacing + 15px 0;
 
                     &:hover {
-                        border-bottom: 2px solid $primary-color;
+                        border-bottom: 4px solid $primary-color;
                     }
                 }
             }

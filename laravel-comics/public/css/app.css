@@ -67,11 +67,11 @@ header .nav ul li:hover a {
 header .nav ul li a {
   text-decoration: none;
   color: #504e50;
-  padding: 30px 0;
+  padding: 35px 0;
 }
 
 header .nav ul li a:hover {
-  border-bottom: 2px solid #0282f9;
+  border-bottom: 4px solid #0282f9;
 }
 
 header .nav form {
@@ -101,5 +101,237 @@ header .nav form input::placeholder {
   padding-left: 46px;
   color: #504e50;
   font-size: 16px;
+}
+
+.jumbo {
+  max-width: 100%;
+  height: 320px;
+  position: relative;
+}
+
+.jumbo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.jumbo .blue-box {
+  background-color: #0282f9;
+  padding: 10px 20px;
+  position: absolute;
+  bottom: -20px;
+  left: 208px;
+}
+
+.jumbo .blue-box h2 {
+  text-transform: uppercase;
+  color: white;
+}
+
+.bg-dark {
+  background-color: #1c1c1c;
+  padding: 30px 0;
+}
+
+.bg-dark .wrapper-comics {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.bg-dark .wrapper-comics .wrapper-comic {
+  flex: 0 0 16.6666666667%;
+  max-width: 16.66%;
+  padding: 10px;
+}
+
+.bg-dark .wrapper-comics .wrapper-comic div {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.bg-dark .wrapper-comics .wrapper-comic div h4 {
+  text-transform: uppercase;
+  font-weight: inherit;
+}
+
+.bg-dark .wrapper-comics .wrapper-comic div div {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.bg-dark .wrapper-comics .wrapper-comic div div img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.bg-dark .load {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.bg-dark .load a {
+  padding: 10px 40px;
+  background-color: #0282f9;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.wrapper-list {
+  background-color: #0282f9;
+  padding: 20px;
+  position: relative;
+}
+
+.wrapper-list ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.wrapper-list ul li {
+  display: flex;
+  align-items: center;
+  margin: 0 30px;
+}
+
+.wrapper-list ul li:nth-child(1) img {
+  width: 32px;
+}
+
+.wrapper-list ul li:nth-child(4) img {
+  width: 26px;
+}
+
+.wrapper-list ul li img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.wrapper-list ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.wrapper-footer {
+  background-image: url(/images/footer-bg.jpg);
+}
+
+.wrapper-footer .wrapper-links {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-top: 20px;
+}
+
+.wrapper-footer .wrapper-links div:nth-child(4) img {
+  width: 410px;
+  margin-top: -40px;
+  z-index: -1;
+}
+
+.wrapper-footer .wrapper-links h3 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.wrapper-footer .wrapper-links ul {
+  list-style: none;
+  font-size: 12px;
+}
+
+.wrapper-footer .wrapper-links ul li {
+  color: lightgray;
+  opacity: 0.9;
+  padding: 4px 0;
+}
+
+.wrapper-footer .wrapper-links ul li:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.wrapper-footer .rights {
+  margin-top: -70px;
+  padding-bottom: 20px;
+  font-size: 12px;
+}
+
+.wrapper-footer .rights p {
+  color: lightgray;
+  opacity: 0.9;
+}
+
+.wrapper-footer .rights p a {
+  color: #0282f9;
+  text-decoration: none;
+}
+
+.wrapper-footer .rights a {
+  color: #0282f9;
+  text-decoration: none;
+}
+
+.footer-signup {
+  background-color: #303030;
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer-signup .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-signup .wrapper div:first-of-type a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  border: 1px solid #0282f9;
+  font-size: 16px;
+  color: white;
+}
+
+.footer-signup .wrapper div:last-of-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-signup .wrapper div:last-of-type p {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #0282f9;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-signup .wrapper div:last-of-type img {
+  margin-left: 10px;
+  width: 30px;
+}
+
+.footer-signup .wrapper div:last-of-type img:hover {
+  cursor: pointer;
 }
 

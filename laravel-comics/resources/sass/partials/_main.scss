@@ -1,0 +1,126 @@
+.jumbo {
+    max-width: 100%;
+    height: 320px;
+    position: relative;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .blue-box {
+        background-color: $primary-color;
+        padding: $spacing / 2 $spacing;
+        position: absolute;
+        bottom: -$spacing;
+        left: $spacing * 10.4;
+
+        h2 {
+            text-transform: uppercase;
+            color: white;
+        }
+    }
+}
+
+.bg-dark {
+    background-color: $background-color;
+    padding: $spacing + 10px 0;
+
+    .wrapper-comics {
+        display: flex;
+        flex-wrap: wrap;
+        color: white;
+
+        .wrapper-comic {
+            flex: 0 0 (100% / 6);
+            max-width: 16.66%;
+            padding: $spacing / 2;
+
+            div {
+                max-width: $spacing * 10;
+                margin: 0 auto;
+
+                h4 {
+                    text-transform: uppercase;
+                    font-weight: inherit;
+                }
+
+                div {
+                    width: 100%;
+                    height: 0;
+                    padding-bottom: 100%;
+                    position: relative;
+                    margin-bottom: $spacing;
+
+                    img {
+                        width: 100%;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        display: block;
+                        height: 100%;
+                        object-fit: cover;
+                        object-position: top;
+                    }
+                }
+            }
+        }
+    }
+
+    .load {
+        text-align: center;
+        margin-top: $spacing * 2;
+
+        a {
+            padding: $spacing / 2 $spacing * 2;
+            background-color: $primary-color;
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    }
+}
+
+.wrapper-list {
+    background-color: $primary-color;
+    padding: $spacing;
+    position: relative;
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+
+        li {
+            display: flex;
+            align-items: center;
+            margin: 0 $spacing * 1.5;
+
+            &:nth-child(1) {
+                img {
+                    width: $spacing + 12px;
+                }
+            }
+
+            &:nth-child(4) {
+                img {
+                    width: $spacing + 6px;
+                }
+            }
+
+            img {
+                width: $spacing * 2;
+                margin-right: $spacing / 2;
+            }
+            a {
+                color: white;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
