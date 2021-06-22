@@ -9,11 +9,18 @@
     </div>
     <div class="container">
         <div class="nav">
+            @php
+            function setLinkClass(...$pageNames){
+            $routeName = Request::route()-> getName();
+            $contains = array_search($routeName, $pageNames);
+            return $contains !== false ? 'active' : '';
+            }
+            @endphp
             <img src="{{asset ('images/dc-logo.png')}}" alt="DC logo">
             <ul>
                 <li><a href="#">Characters</a></li>
-                <li><a href="#">Comics</a></li>
-                <li><a href="#">Movies</a></li>
+                <li><a href="{{route('comics')}}" class="{{setLinkClass('comics', 'comic')}}"">Comics</a></li>
+                <li><a href=" #">Movies</a></li>
                 <li><a href="#">Tv</a></li>
                 <li><a href="#">Games</a></li>
                 <li><a href="#">Collectibles</a></li>

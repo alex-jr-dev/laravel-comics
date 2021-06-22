@@ -28,3 +28,8 @@ Route::get('/comic/{index}', function ($index) {
     $comicChoosed = $datiComics[$index];
     return view('/partials/comic', ['comic' => $comicChoosed]);
 })->name('comic');
+
+
+Route::get('/comics', function () {
+    return "";
+})->name('comics');

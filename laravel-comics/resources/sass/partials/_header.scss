@@ -54,6 +54,11 @@ header {
                     &:hover {
                         border-bottom: 4px solid $primary-color;
                     }
+
+                    &.active {
+                        color: $primary-color;
+                        border-bottom: 4px solid $primary-color;
+                    }
                 }
             }
         }
