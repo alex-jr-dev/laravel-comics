@@ -153,6 +153,11 @@ header .nav form input::placeholder {
   margin: 0 auto;
 }
 
+.bg-dark .wrapper-comics .wrapper-comic div a {
+  color: white;
+  text-decoration: none;
+}
+
 .bg-dark .wrapper-comics .wrapper-comic div h4 {
   text-transform: uppercase;
   font-weight: inherit;
@@ -229,6 +234,235 @@ header .nav form input::placeholder {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.bg-blue-comic {
+  height: 60px;
+  background-color: #0282f9;
+  position: relative;
+}
+
+.bg-blue-comic div {
+  position: absolute;
+  top: -70px;
+  left: 100px;
+}
+
+.bg-blue-comic div .img-container {
+  position: relative;
+  border: 1px solid white;
+}
+
+.bg-blue-comic div .img-container img {
+  width: 160px;
+}
+
+.bg-blue-comic div .img-container div:first-of-type,
+.bg-blue-comic div .img-container div:last-of-type {
+  position: absolute;
+  z-index: 2;
+}
+
+.bg-blue-comic div .img-container div:first-of-type {
+  top: 0;
+  left: 0;
+  background-color: #00a9d9;
+  color: white;
+}
+
+.bg-blue-comic div .img-container div:first-of-type p {
+  display: inline-block;
+  padding: 2px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.bg-blue-comic div .img-container div:last-of-type {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  top: 228px;
+  left: 0;
+  background-color: #00a9d9;
+  color: white;
+}
+
+.bg-blue-comic div .img-container div:last-of-type p {
+  display: inline-block;
+  padding: 2px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.wrapper-info {
+  padding: 40px 90px;
+}
+
+.wrapper-info h1 {
+  padding-bottom: 20px;
+  font-weight: 500;
+  color: #003f5c;
+}
+
+.wrapper-info .info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper-info .info .wrapper-sell {
+  display: flex;
+  background-color: #55ba59;
+  box-shadow: 0 1px #504e50;
+}
+
+.wrapper-info .info .wrapper-sell .price,
+.wrapper-info .info .wrapper-sell .availability {
+  padding: 10px;
+}
+
+.wrapper-info .info .wrapper-sell .price {
+  display: flex;
+  border-right: 1px solid #504e50;
+}
+
+.wrapper-info .info .wrapper-sell .price p:first-of-type {
+  margin-right: 240px;
+  color: #88f29b;
+}
+
+.wrapper-info .info .wrapper-sell .price p:first-of-type span {
+  color: white;
+}
+
+.wrapper-info .info .wrapper-sell .price p:last-of-type {
+  color: #88f29b;
+  text-transform: uppercase;
+}
+
+.wrapper-info .info .wrapper-sell .availability p {
+  color: white;
+}
+
+.wrapper-info .info .reward {
+  text-transform: uppercase;
+  margin-top: -50px;
+}
+
+.wrapper-info .description {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.wrapper-info .description p {
+  font-size: 16px;
+  line-height: 25px;
+  color: gray;
+  opacity: 0.9;
+}
+
+.wrapper-info .description div:last-of-type {
+  margin-top: -115px;
+}
+
+.wrapper-info .description div:last-of-type img {
+  width: 280px;
+}
+
+.wrapper-info .description div:last-of-type p {
+  text-align: end;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: -5px;
+}
+
+.table {
+  background-color: #f6f6f6;
+  border-top: 1px solid lightgray;
+}
+
+.table h2 {
+  padding-bottom: 20px;
+  color: #003f5e;
+}
+
+.table .wrapper-table {
+  padding: 20px 90px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.table .wrapper-table span:first-of-type {
+  color: #003f5e;
+}
+
+.table .wrapper-table span a {
+  text-decoration: none;
+  color: #7bb9e1;
+}
+
+.table .wrapper-table .left-table {
+  flex-basis: 60%;
+}
+
+.table .wrapper-table .left-table div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.table .wrapper-table .left-table div:last-of-type {
+  border-top: none;
+}
+
+.table .wrapper-table .left-table div .wrapper-text-table {
+  flex-basis: 80%;
+  padding: 0;
+  border: none;
+}
+
+.table .wrapper-table .right-table {
+  padding-left: 20px;
+  flex-basis: 35%;
+}
+
+.table .wrapper-table .right-table div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-top: 1px solid lightgray;
+}
+
+.table .wrapper-table .right-table div:last-of-type {
+  border-bottom: 1px solid lightgray;
+}
+
+.table .wrapper-table .right-table div:first-of-type span:last-of-type {
+  text-transform: uppercase;
+  color: #7bb9e1;
+}
+
+.table .wrapper-table .right-table div:nth-child(3) span:last-of-type {
+  padding-right: 110px;
+}
+
+.table .wrapper-table .right-table div:nth-child(4) span:last-of-type {
+  padding-right: 85px;
+}
+
+.table .wrapper-table .right-table div span:last-of-type {
+  padding-right: 60px;
+}
+
+.table .wrapper-table .right-table div .wrapper-text-table {
+  flex-basis: 80%;
+  padding: 0;
+  border: none;
 }
 
 .wrapper-footer {

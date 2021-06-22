@@ -42,6 +42,11 @@
                 max-width: $spacing * 10;
                 margin: 0 auto;
 
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
+
                 h4 {
                     text-transform: uppercase;
                     font-weight: inherit;
