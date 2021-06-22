@@ -236,6 +236,10 @@ header .nav form input::placeholder {
   text-transform: uppercase;
 }
 
+main {
+  position: relative;
+}
+
 .bg-blue-comic {
   height: 60px;
   background-color: #0282f9;
@@ -447,14 +451,6 @@ header .nav form input::placeholder {
   color: #7bb9e1;
 }
 
-.table .wrapper-table .right-table div:nth-child(3) span:last-of-type {
-  padding-right: 110px;
-}
-
-.table .wrapper-table .right-table div:nth-child(4) span:last-of-type {
-  padding-right: 85px;
-}
-
 .table .wrapper-table .right-table div span:last-of-type {
   padding-right: 60px;
 }
@@ -463,6 +459,64 @@ header .nav form input::placeholder {
   flex-basis: 80%;
   padding: 0;
   border: none;
+}
+
+.start-footer {
+  background-color: #f6f6f6;
+  border-top: 1px solid lightgray;
+}
+
+.start-footer .wrapper {
+  padding: 0 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.start-footer .wrapper div {
+  display: flex;
+  border-right: 1px solid lightgray;
+  padding-right: 40px;
+  padding: 10px 10px;
+}
+
+.start-footer .wrapper div:first-of-type {
+  border-left: 1px solid lightgray;
+}
+
+.start-footer .wrapper div .link-sprite {
+  padding: 14px;
+  padding-left: 0;
+  margin-top: -18px;
+  padding-right: 60px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: gray;
+  opacity: 0.9;
+}
+
+.start-footer .wrapper div .bg-sprite {
+  background-image: url(/images/cta-icons.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+}
+
+.start-footer .wrapper div .img-1 {
+  background-position-x: 0;
+}
+
+.start-footer .wrapper div .img-2 {
+  background-position-x: -37px;
+}
+
+.start-footer .wrapper div .img-3 {
+  background-position-x: -74px;
+}
+
+.start-footer .wrapper div .img-4 {
+  background-position-x: -111px;
 }
 
 .wrapper-footer {

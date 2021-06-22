@@ -1,3 +1,7 @@
+main {
+    position: relative;
+}
+
 .bg-blue-comic {
     height: $spacing * 3;
     background-color: $primary-color;
@@ -212,22 +216,6 @@
                     }
                 }
 
-                &:nth-child(3) {
-                    span {
-                        &:last-of-type {
-                            padding-right: 110px;
-                        }
-                    }
-                }
-
-                &:nth-child(4) {
-                    span {
-                        &:last-of-type {
-                            padding-right: 85px;
-                        }
-                    }
-                }
-
                 span {
                     &:last-of-type {
                         padding-right: 60px;
@@ -239,6 +227,60 @@
                     padding: 0;
                     border: none;
                 }
+            }
+        }
+    }
+}
+
+.start-footer {
+    background-color: #f6f6f6;
+    border-top: 1px solid lightgray;
+    .wrapper {
+        padding: 0 $spacing * 4.5;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        div {
+            display: flex;
+            border-right: 1px solid lightgray;
+            padding-right: $spacing * 2;
+            padding: $spacing / 2 $spacing / 2;
+
+            &:first-of-type {
+                border-left: 1px solid lightgray;
+            }
+
+            .link-sprite {
+                padding: $spacing - 6px;
+                padding-left: 0;
+                margin-top: -18px;
+                padding-right: $spacing * 3;
+                text-decoration: none;
+                text-transform: uppercase;
+                color: gray;
+                opacity: 0.9;
+            }
+
+            .bg-sprite {
+                background-image: url(/images/cta-icons.png);
+                background-repeat: no-repeat;
+                display: inline-block;
+                width: 37px;
+                height: 37px;
+            }
+
+            .img-1 {
+                background-position-x: 0;
+            }
+            .img-2 {
+                background-position-x: -37px;
+            }
+            .img-3 {
+                background-position-x: -74px;
+            }
+            .img-4 {
+                background-position-x: -111px;
             }
         }
     }

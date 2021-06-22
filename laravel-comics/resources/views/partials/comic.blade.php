@@ -88,5 +88,28 @@
             </div>
         </div>
     </div>
+
+    <div class="start-footer">
+        <div class="container">
+            <div class="wrapper">
+                <div>
+                    <a href="#" class="link-sprite">Digital Comics </a>
+                    <i class="bg-sprite img-1"></i>
+                </div>
+                <div>
+                    <a href="#" class="link-sprite">Shop DC </a>
+                    <i class="bg-sprite img-2"></i>
+                </div>
+                <div>
+                    <a href="#" class="link-sprite">Comic shop locator </a>
+                    <i class="bg-sprite img-3"></i>
+                </div>
+                <div>
+                    <a href="#" class="link-sprite">Subscription</a>
+                    <i class="bg-sprite img-4"></i>
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
 @endsection
